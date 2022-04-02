@@ -25,12 +25,6 @@ module.exports = {
         center: true,
         padding: {
             DEFAULT: '0.5rem',
-            sm: '1rem',
-            md: '1rem',
-            lg: '2rem',
-            xl: '5rem',
-            '2xl': '6rem',
-            '3xl': '8rem',
         },
     },
     screens: {
@@ -59,31 +53,8 @@ module.exports = {
         'lg': '1.125rem',
         'xl': '1.25rem',
         '2xl': '1.5rem',
-        '3xl': '1.875rem',
-        '4xl': '2.25rem',
-        '5xl': '3rem',
-        '6xl': '4rem',
-        '7xl': '5rem',
-        '8xl': '6rem',
-        '9xl': '7rem',
-        '10xl': '10rem',
     },
     extend: {
-        colors: {
-            primary: '#1f74ff',
-            yellow: '#ffc800',
-            darkPrimary: '#1c1d1f',
-            darkPrimary2: '#242424'
-        },
-        fontFamily: {
-            roboto: ['Roboto Condensed']
-        },
-        spacing: {
-            '78': '20rem',
-            '96': '24rem',
-            '128': '32rem',
-            '140': '40rem'
-        }
     },
 },
   plugins: []
